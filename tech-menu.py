@@ -34,6 +34,7 @@ while ( selection != "q") :
     selection = raw_input("Enter Selection ( q = quit/logout) :")
 
 #Still trying to make the menu clear during incorrect inputs so its clean for page refresh
+# Will need to incorperate - str()/len()/.upper()/.lower(). This should help me with tidying up the code.
 
 # need to work out how to link the selections to the actual inputs
 #grabbed the below menu code from (/usr/local/share/lrapsoe/bin/deviceconfig) to get a better
